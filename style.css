@@ -72,14 +72,14 @@ main {
 }
 
 .main-text {
-    display: inline-block;
-    justify-items: center;
-    margin-top: 130px;
-    margin-left: 370px;
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
+    align-items: center;
 }
 
 .intro {
