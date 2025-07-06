@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 
-#about-me {
+#about_me {
     background-color: #004080;
 }
 
@@ -96,6 +96,33 @@ main {
 
 .lets-go {
     font-size: 20px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow-down {
+    width: 100px;
+    height: 48px;
+    animation: down 1.2s infinite;
+}
+
+.delay-1 {
+    animation-delay: 0.2s;
+}
+
+.delay-2 {
+    animation-delay: 0.4s;
+}
+
+@keyframes down {
+    0% {transform: translateY(0); opacity: 1;}
+    50% {transform: translateY(10px); opacity: 0.3;}
+    100% {transform: translateY(0); opacity: 1;}
 }
 
 footer {

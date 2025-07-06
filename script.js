@@ -86,11 +86,13 @@ document.addEventListener('click', function(e) {
     const title = e.target.getAttribute('data-title');
     const desc = e.target.getAttribute('data-desc');
     const image = e.target.getAttribute('data-image');
+    const link = e.target.getAttribute('data-link')
 
     document.getElementById('popup-title').textContent = title;
     document.getElementById('popup-description').textContent = desc;
     document.getElementById('myPopup').style.display = 'flex';
     document.getElementById('popup-image').src = image;
+    document.getElementById('popup-link').href = link;
   }
 
   if (e.target.classList.contains('close') || e.target.id === 'myPopup'){
