@@ -12,6 +12,14 @@
     background-color: #66B2FF;
 }
 
+#portfolio {
+    background-color: #6699CC;
+}
+
+#contact {
+    background-color: #3399CC;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -85,17 +93,17 @@ main {
     justify-content: center;
     height: 100vh;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
     align-items: center;
 }
 
 .intro {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .lets-go {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .arrows {
