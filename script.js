@@ -90,9 +90,18 @@ document.addEventListener('click', function(e) {
 
     document.getElementById('popup-title').textContent = title;
     document.getElementById('popup-description').textContent = desc;
-    document.getElementById('myPopup').style.display = 'flex';
     document.getElementById('popup-image').src = image;
-    document.getElementById('popup-link').href = link;
+   
+    const popupLink = document.getElementById('popup-link');
+
+    if(link) {
+      popupLink.href = link;
+      popupLink.style.display = 'inline-block';
+    } else {
+      popupLink.style.display = 'none';
+    }
+
+    document.getElementById('myPopup').style.display = 'flex';
   }
 
   if (e.target.classList.contains('close') || e.target.id === 'myPopup'){
