@@ -77,7 +77,7 @@ function animatePercentageBars() {
         percent.style.width = width + "%";
         percent.textContent = width + "%";
       }
-    }, 20);
+    }, 100);
   });
 }
 
