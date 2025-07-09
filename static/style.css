@@ -181,13 +181,6 @@ footer {
     font-size: 20px;
 }
 
-.box{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
 .item-box {
     background-color: #033867;
     padding: 1rem 2rem;
