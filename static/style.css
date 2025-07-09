@@ -99,7 +99,7 @@ main {
 }
 
 .intro {
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .lets-go {
@@ -134,12 +134,11 @@ main {
 }
 
 footer {
-    background-color: #0FFCBE;
+    background-color: #033867;
     padding: 10px 20px;
     text-align: center;
     position: relative;
     bottom: 0;
-    width: 100%;
 }
 
 /* About Me Page */
